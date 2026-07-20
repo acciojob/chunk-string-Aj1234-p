@@ -4,7 +4,7 @@ function stringChop(str, size) {
 	if(n===0) return res;
    while(i<n){
 	   let string = "";
-	   if(i+size<=n)
+	   if(i+size<n)
 	    string = str.substr(i,size);
 	   else
 		string = str.substr(i,n);
